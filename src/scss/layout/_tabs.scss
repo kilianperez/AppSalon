@@ -1,0 +1,16 @@
+.tabs {
+	@include grid(3, 2rem);
+	button {
+		background-color: $blanco;
+		font-size: 1.4rem;
+		padding: 1rem;
+		font-weight: $bold;
+		text-align: center;
+		text-transform: uppercase;
+		border: none;
+		cursor: pointer;
+		&.seleccionado {
+			background-color: $azul;
+		}
+	}
+}
